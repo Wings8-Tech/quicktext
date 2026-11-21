@@ -1,4 +1,4 @@
-/* Copyright (c) 2025 Jema Technology.
+/* Copyright (c) 2025 Wings8 Technology.
    Distributed under the license specified in the root directory of this project. */
 
 // Chrome API Shim for PWAs
@@ -188,7 +188,7 @@
   };
 
   /**
-   * The current UI language. French by default for JemaOS PWAs
+   * The current UI language. French by default for Wings8OS PWAs
    * (never persisted): the settings toggle is a runtime override only
    * and every page load starts back in French.
    */

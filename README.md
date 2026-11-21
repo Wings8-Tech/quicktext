@@ -4,7 +4,7 @@
 
 ### A fast, minimalist text editor — offline-first and installable
 
-[![Made by Jema Technology](https://img.shields.io/badge/Made%20by-Jema%20Technology-8286ef)](https://www.jematechnology.fr)
+[![Made by Wings8 Technology](https://img.shields.io/badge/Made%20by-Wings8%20Technology-8286ef)](https://www.wings8.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE.md)
 [![PWA](https://img.shields.io/badge/PWA-Offline%20Ready-8286ef)](#-install-as-a-pwa)
 [![Vanilla JS](https://img.shields.io/badge/Vanilla-JS-f7df1e?logo=javascript&logoColor=black)](#-tech-stack)
@@ -69,7 +69,7 @@
 - [Node.js](https://nodejs.org) 18+ (only to run the local static server)
 
 ```bash
-git clone https://github.com/JemaOS/quicktext.git
+git clone https://github.com/Wings8-Tech/quicktext.git
 cd quicktext
 npm install
 npm run dev        # serves the app on http://localhost:3000
@@ -121,5 +121,5 @@ git push origin feat/my-feature
 Released under the **MIT License** — see [LICENSE.md](LICENSE.md).
 
 <div align="center">
-Made with ❤️ by <a href="https://www.jematechnology.fr">Jema Technology</a>
+Made with ❤️ by <a href="https://www.wings8.org">Wings8 Technology</a>
 </div>
