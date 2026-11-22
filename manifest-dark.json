@@ -7,7 +7,7 @@
   "scope": ".",
   "display": "standalone",
   "background_color": "#1f1f1f",
-  "theme_color": "#7376db",
+  "theme_color": "#0A1F4A",
   "orientation": "any",
   "icons": [
     {
@@ -65,16 +65,52 @@
       "action": "./",
       "name": "QuickText Document",
       "accept": {
-        "text/plain": [".txt", ".text", ".log", ".conf", ".ini", ".cfg", ".env"],
-        "text/markdown": [".md", ".markdown"],
-        "text/html": [".html", ".htm", ".xhtml"],
-        "text/css": [".css", ".scss", ".less"],
-        "text/javascript": [".js", ".mjs", ".jsx"],
-        "application/typescript": [".ts", ".tsx"],
-        "application/json": [".json", ".map"],
-        "application/xml": [".xml"],
-        "text/csv": [".csv"],
-        "application/x-sh": [".sh", ".bash"]
+        "text/plain": [
+          ".txt",
+          ".text",
+          ".log",
+          ".conf",
+          ".ini",
+          ".cfg",
+          ".env"
+        ],
+        "text/markdown": [
+          ".md",
+          ".markdown"
+        ],
+        "text/html": [
+          ".html",
+          ".htm",
+          ".xhtml"
+        ],
+        "text/css": [
+          ".css",
+          ".scss",
+          ".less"
+        ],
+        "text/javascript": [
+          ".js",
+          ".mjs",
+          ".jsx"
+        ],
+        "application/typescript": [
+          ".ts",
+          ".tsx"
+        ],
+        "application/json": [
+          ".json",
+          ".map"
+        ],
+        "application/xml": [
+          ".xml"
+        ],
+        "text/csv": [
+          ".csv"
+        ],
+        "application/x-sh": [
+          ".sh",
+          ".bash"
+        ]
       },
       "launch_type": "single-client"
     }
@@ -87,8 +123,17 @@
       "text": "text",
       "url": "url"
     },
-    "accept": ["text/plain", "text/markdown", "text/html", "text/*"]
+    "accept": [
+      "text/plain",
+      "text/markdown",
+      "text/html",
+      "text/*"
+    ]
   },
-  "categories": ["utility", "textEditor"],
-  "prefer_related_applications": false
+  "categories": [
+    "utility",
+    "textEditor"
+  ],
+  "prefer_related_applications": false,
+  "lang": "en"
 }
