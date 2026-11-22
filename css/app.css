@@ -3,7 +3,7 @@
 :root {
   --disabled-opacity: 0.38;
   --header-height: 48px;
-  --mdc-theme-secondary: #0A1F4A;
+  --mdc-theme-secondary: #0B1F4B;
   --settings-input-width: 55px;
   --tab-height: 36px;
 }
@@ -1057,7 +1057,7 @@ header.search-active ~ #editor div.cm-editor .cm-searchMatch {
 }
 
 .toolbar-select:focus {
-  border-color: #0A1F4A;
+  border-color: #0B1F4B;
 }
 
 /* Heading select — slightly wider for longer labels */
@@ -1104,7 +1104,7 @@ header.search-active ~ #editor div.cm-editor .cm-searchMatch {
 
 .status-copyright a:hover {
   text-decoration: underline;
-  color: #0A1F4A;
+  color: #0B1F4B;
 }
 
 .status-spacer {
