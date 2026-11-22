@@ -188,11 +188,11 @@
   };
 
   /**
-   * The current UI language. French by default for Wings8OS PWAs
+   * The current UI language. English by default for Wings8 PWAs
    * (never persisted): the settings toggle is a runtime override only
-   * and every page load starts back in French.
+   * and every page load starts back in English.
    */
-  let currentLanguage_ = 'fr';
+  let currentLanguage_ = 'en';
 
   /**
    * Applies a new UI language: updates <html lang>, re-translates all

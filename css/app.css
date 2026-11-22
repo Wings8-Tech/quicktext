@@ -72,8 +72,8 @@ body[theme="light"] {
 body[theme="dark"] {
   --ta-accent-color: rgb(255, 255, 255, 0.12);
   --ta-divider-color: var(--ta-accent-color);
-  --ta-highlight-color: rgba(115, 118, 219, 0.26);
-  --ta-background-color: #1f1f1f;
+  --ta-highlight-color: rgba(249, 150, 52, 0.24);
+  --ta-background-color: #0B1020;
 
   --ta-mdc-icon-background-color: white;
   --ta-mdc-icon-color: var(--ta-ui-text-color);
@@ -87,7 +87,7 @@ body[theme="dark"] {
 
   --ta-editor-text-color: #f8f8f2;
   --ta-editor-line-number-text-color: #bdc1c6;
-  --ta-editor-selection-color: #49483e;
+  --ta-editor-selection-color: rgba(249, 150, 52, 0.28);
   --ta-editor-selection-focus-color: var(--ta-editor-selection-color);
 
   --ta-token-variable-color: #a6e22e;
@@ -156,7 +156,7 @@ html:not(.icons-ready) .material-icons {
 /* Prevent white flash before theme JS runs: match system color scheme immediately */
 @media (prefers-color-scheme: dark) {
   html:not([data-theme-init="light"]) body:not([theme="light"]) {
-    background-color: #1f1f1f;
+    background-color: #0B1020;
     color: #ebebeb;
   }
 }
@@ -170,7 +170,7 @@ html:not(.icons-ready) .material-icons {
 
 /* data-theme-init applied by inline script before DOMContentLoaded */
 html[data-theme-init="dark"] body {
-  background-color: #1f1f1f;
+  background-color: #0B1020;
   color: #ebebeb;
 }
 
@@ -1131,4 +1131,78 @@ header.search-active ~ #editor div.cm-editor .cm-searchMatch {
   height: 12px;
   background: var(--ta-divider-color);
   flex-shrink: 0;
+}
+
+/* Wings8 dark accents */
+body[theme="dark"] #sidebar,
+body[theme="dark"] #menu,
+body[theme="dark"] #menu-bar {
+  background-color: #0B1020;
+  color: #E7EAF2;
+}
+body[theme="dark"] #sidebar {
+  border-right: 1px solid #1E293B;
+}
+body[theme="dark"] #sidebar h1,
+body[theme="dark"] #sidebar h2,
+body[theme="dark"] #sidebar li {
+  color: #E7EAF2;
+}
+body[theme="dark"] #sidebar hr {
+  background-color: #1E293B;
+}
+body[theme="dark"] .sidebar-button {
+  color: #E7EAF2;
+}
+body[theme="dark"] .sidebar-button:hover {
+  background-color: rgba(249, 150, 52, 0.14);
+  color: #F99634;
+}
+body[theme="dark"] #tabs-list .tab-active,
+body[theme="dark"] #tabs-list li[selected] {
+  background-color: rgba(249, 150, 52, 0.18);
+  color: #F99634;
+}
+body[theme="dark"] #editor,
+body[theme="dark"] #editor-container,
+body[theme="dark"] .cm-editor {
+  background-color: #0B1020;
+  color: #E7EAF2;
+}
+body[theme="dark"] footer,
+body[theme="dark"] #status {
+  background-color: #0B1020;
+  border-top: 1px solid #1E293B;
+  color: #A7B0C0;
+}
+body[theme="dark"] .footer-brand-link,
+body[theme="dark"] a[href*="wings8"] {
+  color: #F99634;
+}
+body[theme="dark"] input,
+body[theme="dark"] select,
+body[theme="dark"] textarea {
+  background-color: #111827;
+  border-color: #334155;
+  color: #E7EAF2;
+}
+body[theme="dark"] #search-box,
+body[theme="dark"] #searchbar {
+  background-color: #111827;
+  border-color: #334155;
+  color: #E7EAF2;
+}
+
+body[theme="dark"] .status-copyright a,
+body[theme="dark"] .status-copyright a:hover {
+  color: #F99634;
+}
+body[theme="dark"] .mdc-theme--secondary,
+body[theme="dark"] .format-toolbar .material-icons,
+body[theme="dark"] #toggle-sidebar {
+  color: #E7EAF2;
+}
+body[theme="dark"] .format-toolbar .material-icons:hover,
+body[theme="dark"] #toggle-sidebar:hover {
+  color: #F99634;
 }
